@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic" kind="class" language="C++" prot="public">
+    <compoundname>open3d::camera::PinholeCameraIntrinsic</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJsonConvertible</basecompoundref>
+    <includes refid="_pinhole_camera_intrinsic_8h" local="no">PinholeCameraIntrinsic.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a1cd741802818785dcc04ca191c0f6b83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int open3d::camera::PinholeCameraIntrinsic::width_</definition>
+        <argsstring></argsstring>
+        <name>width_</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+<para>Intrinsic camera matrix [[fx, 0, cx], [0, fy, cy], [0, 0, 1]]. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="86" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="86" bodyend="-1"/>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ac66896c0b913a13760c70261f2765d66" compoundref="_pinhole_camera_intrinsic_8cpp" startline="62" endline="72">ConvertToJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a0b9d6853df2fd01aa3e9397c4d4c55a0" compoundref="_pinhole_camera_intrinsic_8cpp" startline="74" endline="92">ConvertFromJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" compoundref="_pinhole_camera_intrinsic_8h" startline="55" endline="64">SetIntrinsics</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a6aa462077d44464a0e0f7641e3539b8c" compoundref="_pinhole_camera_intrinsic_8h" startline="80" endline="80">IsValid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaf44fcc20d3140dc0536cbe18063a88a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int open3d::camera::PinholeCameraIntrinsic::height_</definition>
+        <argsstring></argsstring>
+        <name>height_</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="87" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="87" bodyend="-1"/>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ac66896c0b913a13760c70261f2765d66" compoundref="_pinhole_camera_intrinsic_8cpp" startline="62" endline="72">ConvertToJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a0b9d6853df2fd01aa3e9397c4d4c55a0" compoundref="_pinhole_camera_intrinsic_8cpp" startline="74" endline="92">ConvertFromJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" compoundref="_pinhole_camera_intrinsic_8h" startline="55" endline="64">SetIntrinsics</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a6aa462077d44464a0e0f7641e3539b8c" compoundref="_pinhole_camera_intrinsic_8h" startline="80" endline="80">IsValid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" prot="public" static="no" mutable="no">
+        <type>Eigen::Matrix3d</type>
+        <definition>Eigen::Matrix3d open3d::camera::PinholeCameraIntrinsic::intrinsic_matrix_</definition>
+        <argsstring></argsstring>
+        <name>intrinsic_matrix_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="88" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="88" bodyend="-1"/>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ac66896c0b913a13760c70261f2765d66" compoundref="_pinhole_camera_intrinsic_8cpp" startline="62" endline="72">ConvertToJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a0b9d6853df2fd01aa3e9397c4d4c55a0" compoundref="_pinhole_camera_intrinsic_8cpp" startline="74" endline="92">ConvertFromJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" compoundref="_pinhole_camera_intrinsic_8h" startline="55" endline="64">SetIntrinsics</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a2964f615d4d877b93287fe6abb3fa630" compoundref="_pinhole_camera_intrinsic_8h" startline="67" endline="69">GetFocalLength</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a029da5bae0d1785f347583bc544f2ae8" compoundref="_pinhole_camera_intrinsic_8h" startline="72" endline="74">GetPrincipalPoint</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1accab078a4c27093d472d2d24d81f207f" compoundref="_pinhole_camera_intrinsic_8h" startline="77" endline="77">GetSkew</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a59768338fc10de4e43a8e120ab11c3f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraIntrinsic::PinholeCameraIntrinsic</definition>
+        <argsstring>()</argsstring>
+        <name>PinholeCameraIntrinsic</name>
+        <briefdescription>
+<para>Default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="46" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" bodystart="38" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a66efe2d0836fecf418196753adec5676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraIntrinsic::PinholeCameraIntrinsic</definition>
+        <argsstring>(PinholeCameraIntrinsicParameters)</argsstring>
+        <name>PinholeCameraIntrinsic</name>
+        <param>
+          <type><ref refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793" kindref="member">PinholeCameraIntrinsicParameters</ref></type>
+          <defname>param</defname>
+        </param>
+        <briefdescription>
+<para>Copy Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="48" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" bodystart="48" bodyend="58"/>
+        <references refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a1b4af7cb8d6df3561d7447f42f7fdfc0">open3d::camera::PrimeSenseDefault</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" compoundref="_pinhole_camera_intrinsic_8h" startline="55" endline="64">SetIntrinsics</references>
+        <references refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a4d2e2a8ef843aaf15e15f208e3614339">open3d::camera::Kinect2DepthCameraDefault</references>
+        <references refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a8937a4c2862b60361e40878aa06eced3">open3d::camera::Kinect2ColorCameraDefault</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a9b0c541b362f60d55702997c7ad85bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraIntrinsic::PinholeCameraIntrinsic</definition>
+        <argsstring>(int width, int height, double fx, double fy, double cx, double cy)</argsstring>
+        <name>PinholeCameraIntrinsic</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>cy</declname>
+        </param>
+        <briefdescription>
+<para>Parameterized Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="50" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" bodystart="42" bodyend="45"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" compoundref="_pinhole_camera_intrinsic_8h" startline="55" endline="64">SetIntrinsics</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a2a960b4cd603659c2bc123d1d8b38a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraIntrinsic::~PinholeCameraIntrinsic</definition>
+        <argsstring>() override</argsstring>
+        <name>~PinholeCameraIntrinsic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="52" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void open3d::camera::PinholeCameraIntrinsic::SetIntrinsics</definition>
+        <argsstring>(int width, int height, double fx, double fy, double cx, double cy)</argsstring>
+        <name>SetIntrinsics</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>cy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="55" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="55" bodyend="64"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a1cd741802818785dcc04ca191c0f6b83" compoundref="_pinhole_camera_intrinsic_8h" startline="86">width_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaf44fcc20d3140dc0536cbe18063a88a" compoundref="_pinhole_camera_intrinsic_8h" startline="87">height_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" compoundref="_pinhole_camera_intrinsic_8h" startline="88">intrinsic_matrix_</references>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a9b0c541b362f60d55702997c7ad85bf2" compoundref="_pinhole_camera_intrinsic_8cpp" startline="42" endline="45">PinholeCameraIntrinsic</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a2964f615d4d877b93287fe6abb3fa630" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::pair&lt; double, double &gt;</type>
+        <definition>std::pair&lt;double, double&gt; open3d::camera::PinholeCameraIntrinsic::GetFocalLength</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFocalLength</name>
+        <briefdescription>
+<para>Returns the focal length. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="67" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="67" bodyend="69"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" compoundref="_pinhole_camera_intrinsic_8h" startline="88">intrinsic_matrix_</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a029da5bae0d1785f347583bc544f2ae8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::pair&lt; double, double &gt;</type>
+        <definition>std::pair&lt;double, double&gt; open3d::camera::PinholeCameraIntrinsic::GetPrincipalPoint</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPrincipalPoint</name>
+        <briefdescription>
+<para>Returns the principle point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="72" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="72" bodyend="74"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" compoundref="_pinhole_camera_intrinsic_8h" startline="88">intrinsic_matrix_</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1accab078a4c27093d472d2d24d81f207f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double open3d::camera::PinholeCameraIntrinsic::GetSkew</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSkew</name>
+        <briefdescription>
+<para>Returns the skew. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="77" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="77" bodyend="77"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" compoundref="_pinhole_camera_intrinsic_8h" startline="88">intrinsic_matrix_</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a6aa462077d44464a0e0f7641e3539b8c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool open3d::camera::PinholeCameraIntrinsic::IsValid</definition>
+        <argsstring>() const</argsstring>
+        <name>IsValid</name>
+        <briefdescription>
+<para>Returns True if both the width and height are greater than 0. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="80" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="80" bodyend="80"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a1cd741802818785dcc04ca191c0f6b83" compoundref="_pinhole_camera_intrinsic_8h" startline="86">width_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaf44fcc20d3140dc0536cbe18063a88a" compoundref="_pinhole_camera_intrinsic_8h" startline="87">height_</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ac66896c0b913a13760c70261f2765d66" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool open3d::camera::PinholeCameraIntrinsic::ConvertToJsonValue</definition>
+        <argsstring>(Json::Value &amp;value) const override</argsstring>
+        <name>ConvertToJsonValue</name>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Assign width</para>
+<para>Assign height </para>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="82" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" bodystart="62" bodyend="72"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a1cd741802818785dcc04ca191c0f6b83" compoundref="_pinhole_camera_intrinsic_8h" startline="86">width_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaf44fcc20d3140dc0536cbe18063a88a" compoundref="_pinhole_camera_intrinsic_8h" startline="87">height_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" compoundref="_pinhole_camera_intrinsic_8h" startline="88">intrinsic_matrix_</references>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a2cee616118b5d635e5b4c1c757b004ae" compoundref="_pinhole_camera_parameters_8cpp" startline="42" endline="54">open3d::camera::PinholeCameraParameters::ConvertToJsonValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a0b9d6853df2fd01aa3e9397c4d4c55a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool open3d::camera::PinholeCameraIntrinsic::ConvertFromJsonValue</definition>
+        <argsstring>(const Json::Value &amp;value) override</argsstring>
+        <name>ConvertFromJsonValue</name>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Get width</para>
+<para>Get height </para>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="83" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" bodystart="74" bodyend="92"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a1cd741802818785dcc04ca191c0f6b83" compoundref="_pinhole_camera_intrinsic_8h" startline="86">width_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaf44fcc20d3140dc0536cbe18063a88a" compoundref="_pinhole_camera_intrinsic_8h" startline="87">height_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" compoundref="_pinhole_camera_intrinsic_8h" startline="88">intrinsic_matrix_</references>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1ae7114228231400130c4d9560a61c8ac0" compoundref="_pinhole_camera_parameters_8cpp" startline="56" endline="78">open3d::camera::PinholeCameraParameters::ConvertFromJsonValue</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>open3d::camera::PinholeCameraIntrinsic</label>
+        <link refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IJsonConvertible</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>open3d::camera::PinholeCameraIntrinsic</label>
+        <link refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IJsonConvertible</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="43" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="43" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a0b9d6853df2fd01aa3e9397c4d4c55a0" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>ConvertFromJsonValue</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ac66896c0b913a13760c70261f2765d66" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>ConvertToJsonValue</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a2964f615d4d877b93287fe6abb3fa630" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>GetFocalLength</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a029da5bae0d1785f347583bc544f2ae8" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>GetPrincipalPoint</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1accab078a4c27093d472d2d24d81f207f" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>GetSkew</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaf44fcc20d3140dc0536cbe18063a88a" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>height_</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>intrinsic_matrix_</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a6aa462077d44464a0e0f7641e3539b8c" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>IsValid</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a59768338fc10de4e43a8e120ab11c3f9" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>PinholeCameraIntrinsic</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a66efe2d0836fecf418196753adec5676" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>PinholeCameraIntrinsic</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a9b0c541b362f60d55702997c7ad85bf2" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>PinholeCameraIntrinsic</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>SetIntrinsics</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a1cd741802818785dcc04ca191c0f6b83" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>width_</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a2a960b4cd603659c2bc123d1d8b38a3a" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraIntrinsic</scope><name>~PinholeCameraIntrinsic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

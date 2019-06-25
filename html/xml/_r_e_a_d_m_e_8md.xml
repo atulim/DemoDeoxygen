@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">&lt;p<sp/>align=&quot;center&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;docs/_static/open3d_logo_horizontal.png&quot;<sp/>width=&quot;320&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/p&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Open3D:<sp/>A<sp/>Modern<sp/>Library<sp/>for<sp/>3D<sp/>Data<sp/>Processing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;h4&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;http://www.open3d.org&quot;&gt;open3d.org&lt;/a&gt;<sp/>|</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;http://www.open3d.org/docs&quot;&gt;Documentation&lt;/a&gt;<sp/>|</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;http://open3d.org/docs/getting_started.html&quot;&gt;Quick<sp/>Start&lt;/a&gt;<sp/>|</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;http://www.open3d.org/docs/compilation.html&quot;&gt;Build<sp/>from<sp/>Source&lt;/a&gt;<sp/>|</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;http://www.open3d.org/docs/index.html#python-api-index&quot;&gt;Python<sp/>API&lt;/a&gt;<sp/>|</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;http://open3d.org/cppapi/index.html&quot;&gt;C++<sp/>API&lt;/a&gt;<sp/>|</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;https://www.youtube.com/watch?v=I3UjXlA4IsU&quot;&gt;Demo&lt;/a&gt;<sp/>|</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=&quot;http://www.open3d.org/docs/contribute.html&quot;&gt;Contribute&lt;/a&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/h4&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Open3D<sp/>is<sp/>an<sp/>open-source<sp/>library<sp/>that<sp/>supports<sp/>rapid<sp/>development<sp/>of<sp/>software<sp/>that<sp/>deals<sp/>with<sp/>3D<sp/>data.<sp/>The<sp/>Open3D<sp/>frontend<sp/>exposes<sp/>a<sp/>set<sp/>of<sp/>carefully<sp/>selected<sp/>data<sp/>structures<sp/>and<sp/>algorithms<sp/>in<sp/>both<sp/>C++<sp/>and<sp/>Python.<sp/>The<sp/>backend<sp/>is<sp/>highly<sp/>optimized<sp/>and<sp/>is<sp/>set<sp/>up<sp/>for<sp/>parallelization.<sp/>We<sp/>welcome<sp/>contributions<sp/>from<sp/>the<sp/>open-source<sp/>community.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Core<sp/>features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>3D<sp/>data<sp/>structures</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>3D<sp/>data<sp/>processing<sp/>algorithms</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Scene<sp/>reconstruction</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Surface<sp/>alignment</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>3D<sp/>visualization</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Python<sp/>binding</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Supported<sp/>OSes<sp/>and<sp/>compilers</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Ubuntu<sp/>16.04<sp/>or<sp/>later:<sp/>GCC<sp/>4.9<sp/>or<sp/>later<sp/>[![Build<sp/>Status](https://travis-ci.org/intel-isl/Open3D.svg?branch=master)](https://travis-ci.org/intel-isl/Open3D)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>macOS:<sp/>XCode<sp/>8.0<sp/>or<sp/>later<sp/>[![Build<sp/>Status](https://travis-ci.org/intel-isl/Open3D.svg?branch=master)](https://travis-ci.org/intel-isl/Open3D)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Windows:<sp/>Visual<sp/>Studio<sp/>2015<sp/>update<sp/>3<sp/>or<sp/>later<sp/>[![Build<sp/>status](https://ci.appveyor.com/api/projects/status/3hasjo041lv6srsi/branch/master?svg=true)](https://ci.appveyor.com/project/yxlao/open3d/branch/master)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Citation</highlight></codeline>
+<codeline><highlight class="normal">Please<sp/>cite<sp/>[our<sp/>work](https://arxiv.org/abs/1801.09847)<sp/>if<sp/>you<sp/>use<sp/>Open3D.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">@article{Zhou2018,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>author<sp/><sp/><sp/><sp/>=<sp/>{Qian-Yi<sp/>Zhou<sp/>and<sp/>Jaesik<sp/>Park<sp/>and<sp/>Vladlen<sp/>Koltun},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>title<sp/><sp/><sp/><sp/><sp/>=<sp/>{{Open3D}:<sp/>{A}<sp/>Modern<sp/>Library<sp/>for<sp/>{3D}<sp/>Data<sp/>Processing},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>journal<sp/><sp/><sp/>=<sp/>{arXiv:1801.09847},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>year<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{2018},</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Ecosystem</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>[Open3D-PointNet:](https://github.com/intel-isl/Open3D-PointNet)<sp/>A<sp/>fork<sp/>of<sp/>PyTorch<sp/>PointNet<sp/>for<sp/>point<sp/>cloud<sp/>classification<sp/>and<sp/>semantic<sp/>segmentation<sp/>compatible<sp/>with<sp/>Open3D.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Open3D-PointNet++:](https://github.com/intel-isl/Open3D-PointNet2-Semantic3D)<sp/>A<sp/>re-implementation<sp/>of<sp/>PointNet++<sp/>using<sp/>Open3D<sp/>to<sp/>enable<sp/>real-time<sp/>semantic<sp/>segmentation<sp/>of<sp/>LIDAR<sp/>point<sp/>clouds.</highlight></codeline>
+    </programlisting>
+    <location file="E:/Open3D/Open3D/README.md"/>
+  </compounddef>
+</doxygen>

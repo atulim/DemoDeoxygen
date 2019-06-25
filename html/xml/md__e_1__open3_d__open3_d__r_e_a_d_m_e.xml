@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="md__e_1__open3_d__open3_d__r_e_a_d_m_e" kind="page">
+    <compoundname>md_E:_Open3D_Open3D_README</compoundname>
+    <title>README</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><image type="html" name="open3d_logo_horizontal.png" inline="yes">></image>
+ </para>
+<para><heading level="1">Open3D: A Modern Library for 3D Data Processing</heading>
+</para>
+<para><heading level="4"><ulink url="http://www.open3d.org">open3d.org</ulink> | <ulink url="http://www.open3d.org/docs">Documentation</ulink> | <ulink url="http://open3d.org/docs/getting_started.html">Quick Start</ulink> | <ulink url="http://www.open3d.org/docs/compilation.html">Build from Source</ulink> | <ulink url="http://www.open3d.org/docs/index.html#python-api-index">Python API</ulink> | <ulink url="http://open3d.org/cppapi/index.html">C++ API</ulink> | <ulink url="https://www.youtube.com/watch?v=I3UjXlA4IsU">Demo</ulink> | <ulink url="http://www.open3d.org/docs/contribute.html">Contribute</ulink> </heading>
+</para>
+<para>Open3D is an open-source library that supports rapid development of software that deals with 3D data. The Open3D frontend exposes a set of carefully selected data structures and algorithms in both C++ and Python. The backend is highly optimized and is set up for parallelization. We welcome contributions from the open-source community.</para>
+<para><heading level="2">Core features</heading>
+</para>
+<para><itemizedlist>
+<listitem><para>3D data structures</para>
+</listitem><listitem><para>3D data processing algorithms</para>
+</listitem><listitem><para>Scene reconstruction</para>
+</listitem><listitem><para>Surface alignment</para>
+</listitem><listitem><para>3D visualization</para>
+</listitem><listitem><para>Python binding</para>
+</listitem></itemizedlist>
+</para>
+<para><heading level="2">Supported OSes and compilers</heading>
+</para>
+<para><itemizedlist>
+<listitem><para>Ubuntu 16.04 or later: GCC 4.9 or later <ulink url="https://travis-ci.org/intel-isl/Open3D"><image type="html" name="Open3D.svg?branch=master" inline="yes">></image>
+</ulink></para>
+</listitem><listitem><para>macOS: XCode 8.0 or later <ulink url="https://travis-ci.org/intel-isl/Open3D"><image type="html" name="Open3D.svg?branch=master" inline="yes">></image>
+</ulink></para>
+</listitem><listitem><para>Windows: Visual Studio 2015 update 3 or later <ulink url="https://ci.appveyor.com/project/yxlao/open3d/branch/master"><image type="html" name="master?svg=true" inline="yes">></image>
+</ulink></para>
+</listitem></itemizedlist>
+</para>
+<para><heading level="2">Citation</heading>
+</para>
+<para>Please cite <ulink url="https://arxiv.org/abs/1801.09847">our work</ulink> if you use Open3D.</para>
+<para><programlisting><codeline><highlight class="normal">@article{Zhou2018,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>author<sp/><sp/><sp/><sp/>=<sp/>{Qian-Yi<sp/>Zhou<sp/>and<sp/>Jaesik<sp/>Park<sp/>and<sp/>Vladlen<sp/>Koltun},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>title<sp/><sp/><sp/><sp/><sp/>=<sp/>{{Open3D}:<sp/>{A}<sp/>Modern<sp/>Library<sp/>for<sp/>{3D}<sp/>Data<sp/>Processing},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>journal<sp/><sp/><sp/>=<sp/>{arXiv:1801.09847},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>year<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{2018},</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para>
+<para><heading level="2">Ecosystem</heading>
+</para>
+<para><itemizedlist>
+<listitem><para><ulink url="https://github.com/intel-isl/Open3D-PointNet">Open3D-PointNet:</ulink> A fork of PyTorch PointNet for point cloud classification and semantic segmentation compatible with Open3D.</para>
+</listitem><listitem><para><ulink url="https://github.com/intel-isl/Open3D-PointNet2-Semantic3D">Open3D-PointNet++:</ulink> A re-implementation of PointNet++ using Open3D to enable real-time semantic segmentation of LIDAR point clouds. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

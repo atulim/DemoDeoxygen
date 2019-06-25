@@ -1,0 +1,256 @@
+\hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic}{}\section{open3d\+::camera\+::Pinhole\+Camera\+Intrinsic Class Reference}
+\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic}\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+
+
+{\ttfamily \#include $<$Pinhole\+Camera\+Intrinsic.\+h$>$}
+
+
+
+Inheritance diagram for open3d\+::camera\+::Pinhole\+Camera\+Intrinsic\+:
+% FIG 0
+
+
+Collaboration diagram for open3d\+::camera\+::Pinhole\+Camera\+Intrinsic\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a59768338fc10de4e43a8e120ab11c3f9}{Pinhole\+Camera\+Intrinsic}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a66efe2d0836fecf418196753adec5676}{Pinhole\+Camera\+Intrinsic}} (\mbox{\hyperlink{namespaceopen3d_1_1camera_a57dc47ff7ac14e5f8be58be554497793}{Pinhole\+Camera\+Intrinsic\+Parameters}})
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a9b0c541b362f60d55702997c7ad85bf2}{Pinhole\+Camera\+Intrinsic}} (int width, int height, double fx, double fy, double cx, double cy)
+\begin{DoxyCompactList}\small\item\em Parameterized Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a2a960b4cd603659c2bc123d1d8b38a3a}{$\sim$\+Pinhole\+Camera\+Intrinsic}} () override
+\item 
+void \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_ae56eaa41d3552618b0df332af2aac4cc}{Set\+Intrinsics}} (int width, int height, double fx, double fy, double cx, double cy)
+\item 
+std\+::pair$<$ double, double $>$ \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a2964f615d4d877b93287fe6abb3fa630}{Get\+Focal\+Length}} () const
+\begin{DoxyCompactList}\small\item\em Returns the focal length. \end{DoxyCompactList}\item 
+std\+::pair$<$ double, double $>$ \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a029da5bae0d1785f347583bc544f2ae8}{Get\+Principal\+Point}} () const
+\begin{DoxyCompactList}\small\item\em Returns the principle point. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_accab078a4c27093d472d2d24d81f207f}{Get\+Skew}} () const
+\begin{DoxyCompactList}\small\item\em Returns the skew. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a6aa462077d44464a0e0f7641e3539b8c}{Is\+Valid}} () const
+\begin{DoxyCompactList}\small\item\em Returns True if both the width and height are greater than 0. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_ac66896c0b913a13760c70261f2765d66}{Convert\+To\+Json\+Value}} (Json\+::\+Value \&value) const override
+\item 
+bool \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a0b9d6853df2fd01aa3e9397c4d4c55a0}{Convert\+From\+Json\+Value}} (const Json\+::\+Value \&value) override
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a1cd741802818785dcc04ca191c0f6b83}{width\+\_\+}} = -\/1
+\begin{DoxyCompactList}\small\item\em Intrinsic camera matrix \mbox{[}\mbox{[}fx, 0, cx\mbox{]}, \mbox{[}0, fy, cy\mbox{]}, \mbox{[}0, 0, 1\mbox{]}\mbox{]}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_aaf44fcc20d3140dc0536cbe18063a88a}{height\+\_\+}} = -\/1
+\item 
+Eigen\+::\+Matrix3d \mbox{\hyperlink{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_aaec6ac584fd3b3cc97f21824cc3581bd}{intrinsic\+\_\+matrix\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 43 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a59768338fc10de4e43a8e120ab11c3f9}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a59768338fc10de4e43a8e120ab11c3f9}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!PinholeCameraIntrinsic@{PinholeCameraIntrinsic}}
+\index{PinholeCameraIntrinsic@{PinholeCameraIntrinsic}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{PinholeCameraIntrinsic()}{PinholeCameraIntrinsic()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Pinhole\+Camera\+Intrinsic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default Constructor. 
+
+
+
+Definition at line 38 of file Pinhole\+Camera\+Intrinsic.\+cpp.
+
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a66efe2d0836fecf418196753adec5676}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a66efe2d0836fecf418196753adec5676}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!PinholeCameraIntrinsic@{PinholeCameraIntrinsic}}
+\index{PinholeCameraIntrinsic@{PinholeCameraIntrinsic}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{PinholeCameraIntrinsic()}{PinholeCameraIntrinsic()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Pinhole\+Camera\+Intrinsic (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceopen3d_1_1camera_a57dc47ff7ac14e5f8be58be554497793}{Pinhole\+Camera\+Intrinsic\+Parameters}}}]{param }\end{DoxyParamCaption})}
+
+
+
+Copy Constructor. 
+
+
+
+Definition at line 48 of file Pinhole\+Camera\+Intrinsic.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a9b0c541b362f60d55702997c7ad85bf2}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a9b0c541b362f60d55702997c7ad85bf2}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!PinholeCameraIntrinsic@{PinholeCameraIntrinsic}}
+\index{PinholeCameraIntrinsic@{PinholeCameraIntrinsic}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{PinholeCameraIntrinsic()}{PinholeCameraIntrinsic()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Pinhole\+Camera\+Intrinsic (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{double}]{fx,  }\item[{double}]{fy,  }\item[{double}]{cx,  }\item[{double}]{cy }\end{DoxyParamCaption})}
+
+
+
+Parameterized Constructor. 
+
+
+
+Definition at line 42 of file Pinhole\+Camera\+Intrinsic.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a2a960b4cd603659c2bc123d1d8b38a3a}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a2a960b4cd603659c2bc123d1d8b38a3a}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!````~PinholeCameraIntrinsic@{$\sim$PinholeCameraIntrinsic}}
+\index{````~PinholeCameraIntrinsic@{$\sim$PinholeCameraIntrinsic}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{$\sim$PinholeCameraIntrinsic()}{~PinholeCameraIntrinsic()}}
+{\footnotesize\ttfamily open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::$\sim$\+Pinhole\+Camera\+Intrinsic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Definition at line 60 of file Pinhole\+Camera\+Intrinsic.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a0b9d6853df2fd01aa3e9397c4d4c55a0}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a0b9d6853df2fd01aa3e9397c4d4c55a0}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!ConvertFromJsonValue@{ConvertFromJsonValue}}
+\index{ConvertFromJsonValue@{ConvertFromJsonValue}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{ConvertFromJsonValue()}{ConvertFromJsonValue()}}
+{\footnotesize\ttfamily bool open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Convert\+From\+Json\+Value (\begin{DoxyParamCaption}\item[{const Json\+::\+Value \&}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+Get width
+
+Get height 
+
+Definition at line 74 of file Pinhole\+Camera\+Intrinsic.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_ac66896c0b913a13760c70261f2765d66}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_ac66896c0b913a13760c70261f2765d66}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!ConvertToJsonValue@{ConvertToJsonValue}}
+\index{ConvertToJsonValue@{ConvertToJsonValue}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{ConvertToJsonValue()}{ConvertToJsonValue()}}
+{\footnotesize\ttfamily bool open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Convert\+To\+Json\+Value (\begin{DoxyParamCaption}\item[{Json\+::\+Value \&}]{value }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}}
+
+Assign width
+
+Assign height 
+
+Definition at line 62 of file Pinhole\+Camera\+Intrinsic.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a2964f615d4d877b93287fe6abb3fa630}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a2964f615d4d877b93287fe6abb3fa630}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!GetFocalLength@{GetFocalLength}}
+\index{GetFocalLength@{GetFocalLength}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{GetFocalLength()}{GetFocalLength()}}
+{\footnotesize\ttfamily std\+::pair$<$double, double$>$ open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Get\+Focal\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the focal length. 
+
+
+
+Definition at line 67 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a029da5bae0d1785f347583bc544f2ae8}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a029da5bae0d1785f347583bc544f2ae8}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!GetPrincipalPoint@{GetPrincipalPoint}}
+\index{GetPrincipalPoint@{GetPrincipalPoint}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{GetPrincipalPoint()}{GetPrincipalPoint()}}
+{\footnotesize\ttfamily std\+::pair$<$double, double$>$ open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Get\+Principal\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the principle point. 
+
+
+
+Definition at line 72 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_accab078a4c27093d472d2d24d81f207f}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_accab078a4c27093d472d2d24d81f207f}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!GetSkew@{GetSkew}}
+\index{GetSkew@{GetSkew}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{GetSkew()}{GetSkew()}}
+{\footnotesize\ttfamily double open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Get\+Skew (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the skew. 
+
+
+
+Definition at line 77 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a6aa462077d44464a0e0f7641e3539b8c}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a6aa462077d44464a0e0f7641e3539b8c}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!IsValid@{IsValid}}
+\index{IsValid@{IsValid}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{IsValid()}{IsValid()}}
+{\footnotesize\ttfamily bool open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns True if both the width and height are greater than 0. 
+
+
+
+Definition at line 80 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_ae56eaa41d3552618b0df332af2aac4cc}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_ae56eaa41d3552618b0df332af2aac4cc}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!SetIntrinsics@{SetIntrinsics}}
+\index{SetIntrinsics@{SetIntrinsics}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{SetIntrinsics()}{SetIntrinsics()}}
+{\footnotesize\ttfamily void open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::\+Set\+Intrinsics (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{double}]{fx,  }\item[{double}]{fy,  }\item[{double}]{cx,  }\item[{double}]{cy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 55 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+Here is the caller graph for this function\+:
+% FIG 6
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_aaf44fcc20d3140dc0536cbe18063a88a}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_aaf44fcc20d3140dc0536cbe18063a88a}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!height\_@{height\_}}
+\index{height\_@{height\_}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{height\_}{height\_}}
+{\footnotesize\ttfamily int open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::height\+\_\+ = -\/1}
+
+
+
+Definition at line 87 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_aaec6ac584fd3b3cc97f21824cc3581bd}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_aaec6ac584fd3b3cc97f21824cc3581bd}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!intrinsic\_matrix\_@{intrinsic\_matrix\_}}
+\index{intrinsic\_matrix\_@{intrinsic\_matrix\_}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{intrinsic\_matrix\_}{intrinsic\_matrix\_}}
+{\footnotesize\ttfamily Eigen\+::\+Matrix3d open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::intrinsic\+\_\+matrix\+\_\+}
+
+
+
+Definition at line 88 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+\mbox{\Hypertarget{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a1cd741802818785dcc04ca191c0f6b83}\label{classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_a1cd741802818785dcc04ca191c0f6b83}} 
+\index{open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}!width\_@{width\_}}
+\index{width\_@{width\_}!open3d::camera::PinholeCameraIntrinsic@{open3d::camera::PinholeCameraIntrinsic}}
+\subsubsection{\texorpdfstring{width\_}{width\_}}
+{\footnotesize\ttfamily int open3d\+::camera\+::\+Pinhole\+Camera\+Intrinsic\+::width\+\_\+ = -\/1}
+
+
+
+Intrinsic camera matrix \mbox{[}\mbox{[}fx, 0, cx\mbox{]}, \mbox{[}0, fy, cy\mbox{]}, \mbox{[}0, 0, 1\mbox{]}\mbox{]}. 
+
+
+
+Definition at line 86 of file Pinhole\+Camera\+Intrinsic.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Open3\+D/\+Open3\+D/src/\+Open3\+D/\+Camera/\mbox{\hyperlink{_pinhole_camera_intrinsic_8h}{Pinhole\+Camera\+Intrinsic.\+h}}\item 
+E\+:/\+Open3\+D/\+Open3\+D/src/\+Open3\+D/\+Camera/\mbox{\hyperlink{_pinhole_camera_intrinsic_8cpp}{Pinhole\+Camera\+Intrinsic.\+cpp}}\end{DoxyCompactItemize}

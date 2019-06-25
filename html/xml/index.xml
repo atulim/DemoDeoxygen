@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic" kind="class"><name>open3d::camera::PinholeCameraIntrinsic</name>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a1cd741802818785dcc04ca191c0f6b83" kind="variable"><name>width_</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaf44fcc20d3140dc0536cbe18063a88a" kind="variable"><name>height_</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1aaec6ac584fd3b3cc97f21824cc3581bd" kind="variable"><name>intrinsic_matrix_</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a59768338fc10de4e43a8e120ab11c3f9" kind="function"><name>PinholeCameraIntrinsic</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a66efe2d0836fecf418196753adec5676" kind="function"><name>PinholeCameraIntrinsic</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a9b0c541b362f60d55702997c7ad85bf2" kind="function"><name>PinholeCameraIntrinsic</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a2a960b4cd603659c2bc123d1d8b38a3a" kind="function"><name>~PinholeCameraIntrinsic</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ae56eaa41d3552618b0df332af2aac4cc" kind="function"><name>SetIntrinsics</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a2964f615d4d877b93287fe6abb3fa630" kind="function"><name>GetFocalLength</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a029da5bae0d1785f347583bc544f2ae8" kind="function"><name>GetPrincipalPoint</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1accab078a4c27093d472d2d24d81f207f" kind="function"><name>GetSkew</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a6aa462077d44464a0e0f7641e3539b8c" kind="function"><name>IsValid</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ac66896c0b913a13760c70261f2765d66" kind="function"><name>ConvertToJsonValue</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a0b9d6853df2fd01aa3e9397c4d4c55a0" kind="function"><name>ConvertFromJsonValue</name></member>
+  </compound>
+  <compound refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters" kind="class"><name>open3d::camera::PinholeCameraParameters</name>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a55ac6c7f9df8057bf9bfe268b0f69ee3" kind="variable"><name>intrinsic_</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1aa2ff2967cce46974ed24db28a37bb198" kind="variable"><name>extrinsic_</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a1eca22dba2dee5b58982569703452952" kind="function"><name>PinholeCameraParameters</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a4c06f3c00dd451d8cbc3325d315b2a40" kind="function"><name>~PinholeCameraParameters</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a2cee616118b5d635e5b4c1c757b004ae" kind="function"><name>ConvertToJsonValue</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1ae7114228231400130c4d9560a61c8ac0" kind="function"><name>ConvertFromJsonValue</name></member>
+  </compound>
+  <compound refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory" kind="class"><name>open3d::camera::PinholeCameraTrajectory</name>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a97289c86dbb9c354c592cd741ecf4eea" kind="variable"><name>parameters_</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a10142b8ed17053267fb537a792b8a63c" kind="function"><name>PinholeCameraTrajectory</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a345ace8fadf3ea020bf9002db8e539af" kind="function"><name>~PinholeCameraTrajectory</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1af54b7e957f918c9d577ef5d93acbcde3" kind="function"><name>ConvertToJsonValue</name></member>
+    <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1ad1cecdbbb56375e5b67ea1acc02c21d8" kind="function"><name>ConvertFromJsonValue</name></member>
+  </compound>
+  <compound refid="namespaceopen3d" kind="namespace"><name>open3d</name>
+  </compound>
+  <compound refid="namespaceopen3d_1_1camera" kind="namespace"><name>open3d::camera</name>
+    <member refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793" kind="enum"><name>PinholeCameraIntrinsicParameters</name></member>
+    <member refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a1b4af7cb8d6df3561d7447f42f7fdfc0" kind="enumvalue"><name>PrimeSenseDefault</name></member>
+    <member refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a4d2e2a8ef843aaf15e15f208e3614339" kind="enumvalue"><name>Kinect2DepthCameraDefault</name></member>
+    <member refid="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a8937a4c2862b60361e40878aa06eced3" kind="enumvalue"><name>Kinect2ColorCameraDefault</name></member>
+  </compound>
+  <compound refid="_pinhole_camera_intrinsic_8cpp" kind="file"><name>PinholeCameraIntrinsic.cpp</name>
+  </compound>
+  <compound refid="_pinhole_camera_intrinsic_8h" kind="file"><name>PinholeCameraIntrinsic.h</name>
+  </compound>
+  <compound refid="_pinhole_camera_parameters_8cpp" kind="file"><name>PinholeCameraParameters.cpp</name>
+  </compound>
+  <compound refid="_pinhole_camera_parameters_8h" kind="file"><name>PinholeCameraParameters.h</name>
+  </compound>
+  <compound refid="_pinhole_camera_trajectory_8cpp" kind="file"><name>PinholeCameraTrajectory.cpp</name>
+  </compound>
+  <compound refid="_pinhole_camera_trajectory_8h" kind="file"><name>PinholeCameraTrajectory.h</name>
+  </compound>
+  <compound refid="dir_1bde18d4087bbaa28fe67273e87f4493" kind="dir"><name>E:/Open3D/Open3D/src/Open3D/Camera</name>
+  </compound>
+  <compound refid="dir_9ae6bc2ce201b88dd5a9d1123501a64d" kind="dir"><name>E:/Open3D/Open3D</name>
+  </compound>
+  <compound refid="dir_d014f394c35dab4cff719dd4178d6ea2" kind="dir"><name>E:/Open3D/Open3D/src/Open3D</name>
+  </compound>
+  <compound refid="dir_c518d4144b4272f3296f922f457cd285" kind="dir"><name>E:/Open3D</name>
+  </compound>
+  <compound refid="dir_03e9d65908a69c67a63f9a4e6a7065e0" kind="dir"><name>E:/Open3D/Open3D/src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_9ae6bc2ce201b88dd5a9d1123501a64d" kind="dir">
+    <compoundname>E:/Open3D/Open3D</compoundname>
+    <innerdir refid="dir_03e9d65908a69c67a63f9a4e6a7065e0">E:/Open3D/Open3D/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Open3D/Open3D/"/>
+  </compounddef>
+</doxygen>

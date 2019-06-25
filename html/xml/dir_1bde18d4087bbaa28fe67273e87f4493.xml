@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_1bde18d4087bbaa28fe67273e87f4493" kind="dir">
+    <compoundname>E:/Open3D/Open3D/src/Open3D/Camera</compoundname>
+    <innerfile refid="_pinhole_camera_intrinsic_8cpp">PinholeCameraIntrinsic.cpp</innerfile>
+    <innerfile refid="_pinhole_camera_intrinsic_8h">PinholeCameraIntrinsic.h</innerfile>
+    <innerfile refid="_pinhole_camera_parameters_8cpp">PinholeCameraParameters.cpp</innerfile>
+    <innerfile refid="_pinhole_camera_parameters_8h">PinholeCameraParameters.h</innerfile>
+    <innerfile refid="_pinhole_camera_trajectory_8cpp">PinholeCameraTrajectory.cpp</innerfile>
+    <innerfile refid="_pinhole_camera_trajectory_8h">PinholeCameraTrajectory.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Open3D/Open3D/src/Open3D/Camera/"/>
+  </compounddef>
+</doxygen>

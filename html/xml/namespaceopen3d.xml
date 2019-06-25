@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespaceopen3d" kind="namespace" language="C++">
+    <compoundname>open3d</compoundname>
+    <innernamespace refid="namespaceopen3d_1_1camera">open3d::camera</innernamespace>
+    <briefdescription>
+<para>PinholeCameraIntrinsic class stores intrinsic camera matrix, and image height and width. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains a list of PinholeCameraParameters, useful to storing trajectories.</para>
+<para>Contains both intrinsic and extrinsic pinhole camera parameters. </para>
+    </detaileddescription>
+    <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" line="34" column="1"/>
+  </compounddef>
+</doxygen>

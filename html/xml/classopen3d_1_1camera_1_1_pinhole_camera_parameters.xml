@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classopen3d_1_1camera_1_1_pinhole_camera_parameters" kind="class" language="C++" prot="public">
+    <compoundname>open3d::camera::PinholeCameraParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJsonConvertible</basecompoundref>
+    <includes refid="_pinhole_camera_parameters_8h" local="no">PinholeCameraParameters.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a55ac6c7f9df8057bf9bfe268b0f69ee3" prot="public" static="no" mutable="no">
+        <type><ref refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic" kindref="compound">PinholeCameraIntrinsic</ref></type>
+        <definition>PinholeCameraIntrinsic open3d::camera::PinholeCameraParameters::intrinsic_</definition>
+        <argsstring></argsstring>
+        <name>intrinsic_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" line="47" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a2cee616118b5d635e5b4c1c757b004ae" compoundref="_pinhole_camera_parameters_8cpp" startline="42" endline="54">ConvertToJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1ae7114228231400130c4d9560a61c8ac0" compoundref="_pinhole_camera_parameters_8cpp" startline="56" endline="78">ConvertFromJsonValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1aa2ff2967cce46974ed24db28a37bb198" prot="public" static="no" mutable="no">
+        <type>Eigen::Matrix4d_u</type>
+        <definition>Eigen::Matrix4d_u open3d::camera::PinholeCameraParameters::extrinsic_</definition>
+        <argsstring></argsstring>
+        <name>extrinsic_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" line="48" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a2cee616118b5d635e5b4c1c757b004ae" compoundref="_pinhole_camera_parameters_8cpp" startline="42" endline="54">ConvertToJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1ae7114228231400130c4d9560a61c8ac0" compoundref="_pinhole_camera_parameters_8cpp" startline="56" endline="78">ConvertFromJsonValue</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a1eca22dba2dee5b58982569703452952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraParameters::PinholeCameraParameters</definition>
+        <argsstring>()</argsstring>
+        <name>PinholeCameraParameters</name>
+        <briefdescription>
+<para>Default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" line="39" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.cpp" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a4c06f3c00dd451d8cbc3325d315b2a40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraParameters::~PinholeCameraParameters</definition>
+        <argsstring>() override</argsstring>
+        <name>~PinholeCameraParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" line="40" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.cpp" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a2cee616118b5d635e5b4c1c757b004ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool open3d::camera::PinholeCameraParameters::ConvertToJsonValue</definition>
+        <argsstring>(Json::Value &amp;value) const override</argsstring>
+        <name>ConvertToJsonValue</name>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" line="43" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.cpp" bodystart="42" bodyend="54"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1aa2ff2967cce46974ed24db28a37bb198" compoundref="_pinhole_camera_parameters_8h" startline="48">extrinsic_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a55ac6c7f9df8057bf9bfe268b0f69ee3" compoundref="_pinhole_camera_parameters_8h" startline="47">intrinsic_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1ac66896c0b913a13760c70261f2765d66" compoundref="_pinhole_camera_intrinsic_8cpp" startline="62" endline="72">open3d::camera::PinholeCameraIntrinsic::ConvertToJsonValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1ae7114228231400130c4d9560a61c8ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool open3d::camera::PinholeCameraParameters::ConvertFromJsonValue</definition>
+        <argsstring>(const Json::Value &amp;value) override</argsstring>
+        <name>ConvertFromJsonValue</name>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" line="44" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.cpp" bodystart="56" bodyend="78"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a55ac6c7f9df8057bf9bfe268b0f69ee3" compoundref="_pinhole_camera_parameters_8h" startline="47">intrinsic_</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic_1a0b9d6853df2fd01aa3e9397c4d4c55a0" compoundref="_pinhole_camera_intrinsic_8cpp" startline="74" endline="92">open3d::camera::PinholeCameraIntrinsic::ConvertFromJsonValue</references>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1aa2ff2967cce46974ed24db28a37bb198" compoundref="_pinhole_camera_parameters_8h" startline="48">extrinsic_</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>open3d::camera::PinholeCameraParameters</label>
+        <link refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IJsonConvertible</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>open3d::camera::PinholeCameraParameters</label>
+        <link refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+intrinsic_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>open3d::camera::PinholeCameraIntrinsic</label>
+        <link refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IJsonConvertible</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" line="37" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraParameters.h" bodystart="37" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1ae7114228231400130c4d9560a61c8ac0" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraParameters</scope><name>ConvertFromJsonValue</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a2cee616118b5d635e5b4c1c757b004ae" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraParameters</scope><name>ConvertToJsonValue</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1aa2ff2967cce46974ed24db28a37bb198" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraParameters</scope><name>extrinsic_</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a55ac6c7f9df8057bf9bfe268b0f69ee3" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraParameters</scope><name>intrinsic_</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a1eca22dba2dee5b58982569703452952" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraParameters</scope><name>PinholeCameraParameters</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters_1a4c06f3c00dd451d8cbc3325d315b2a40" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraParameters</scope><name>~PinholeCameraParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

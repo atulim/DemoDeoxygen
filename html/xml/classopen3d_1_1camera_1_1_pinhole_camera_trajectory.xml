@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classopen3d_1_1camera_1_1_pinhole_camera_trajectory" kind="class" language="C++" prot="public">
+    <compoundname>open3d::camera::PinholeCameraTrajectory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJsonConvertible</basecompoundref>
+    <includes refid="_pinhole_camera_trajectory_8h" local="no">PinholeCameraTrajectory.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a97289c86dbb9c354c592cd741ecf4eea" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters" kindref="compound">PinholeCameraParameters</ref> &gt;</type>
+        <definition>std::vector&lt;PinholeCameraParameters&gt; open3d::camera::PinholeCameraTrajectory::parameters_</definition>
+        <argsstring></argsstring>
+        <name>parameters_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" line="48" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1af54b7e957f918c9d577ef5d93acbcde3" compoundref="_pinhole_camera_trajectory_8cpp" startline="43" endline="56">ConvertToJsonValue</referencedby>
+        <referencedby refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1ad1cecdbbb56375e5b67ea1acc02c21d8" compoundref="_pinhole_camera_trajectory_8cpp" startline="59" endline="96">ConvertFromJsonValue</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a10142b8ed17053267fb537a792b8a63c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraTrajectory::PinholeCameraTrajectory</definition>
+        <argsstring>()</argsstring>
+        <name>PinholeCameraTrajectory</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" line="40" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.cpp" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a345ace8fadf3ea020bf9002db8e539af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>open3d::camera::PinholeCameraTrajectory::~PinholeCameraTrajectory</definition>
+        <argsstring>() override</argsstring>
+        <name>~PinholeCameraTrajectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" line="41" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.cpp" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1af54b7e957f918c9d577ef5d93acbcde3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool open3d::camera::PinholeCameraTrajectory::ConvertToJsonValue</definition>
+        <argsstring>(Json::Value &amp;value) const override</argsstring>
+        <name>ConvertToJsonValue</name>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic" kindref="compound">PinholeCameraIntrinsic</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" line="44" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.cpp" bodystart="43" bodyend="56"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a97289c86dbb9c354c592cd741ecf4eea" compoundref="_pinhole_camera_trajectory_8h" startline="48">parameters_</references>
+      </memberdef>
+      <memberdef kind="function" id="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1ad1cecdbbb56375e5b67ea1acc02c21d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool open3d::camera::PinholeCameraTrajectory::ConvertFromJsonValue</definition>
+        <argsstring>(const Json::Value &amp;value) override</argsstring>
+        <name>ConvertFromJsonValue</name>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>List of <ref refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters" kindref="compound">PinholeCameraParameters</ref> objects. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" line="45" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.cpp" bodystart="59" bodyend="96"/>
+        <references refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a97289c86dbb9c354c592cd741ecf4eea" compoundref="_pinhole_camera_trajectory_8h" startline="48">parameters_</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>open3d::camera::PinholeCameraTrajectory</label>
+        <link refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utility::IJsonConvertible</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>open3d::camera::PinholeCameraTrajectory</label>
+        <link refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>utility::IJsonConvertible</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" line="37" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraTrajectory.h" bodystart="37" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1ad1cecdbbb56375e5b67ea1acc02c21d8" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraTrajectory</scope><name>ConvertFromJsonValue</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1af54b7e957f918c9d577ef5d93acbcde3" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraTrajectory</scope><name>ConvertToJsonValue</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a97289c86dbb9c354c592cd741ecf4eea" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraTrajectory</scope><name>parameters_</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a10142b8ed17053267fb537a792b8a63c" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraTrajectory</scope><name>PinholeCameraTrajectory</name></member>
+      <member refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory_1a345ace8fadf3ea020bf9002db8e539af" prot="public" virt="non-virtual"><scope>open3d::camera::PinholeCameraTrajectory</scope><name>~PinholeCameraTrajectory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

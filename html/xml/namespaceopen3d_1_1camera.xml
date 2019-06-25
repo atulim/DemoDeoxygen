@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespaceopen3d_1_1camera" kind="namespace" language="C++">
+    <compoundname>open3d::camera</compoundname>
+    <innerclass refid="classopen3d_1_1camera_1_1_pinhole_camera_intrinsic" prot="public">open3d::camera::PinholeCameraIntrinsic</innerclass>
+    <innerclass refid="classopen3d_1_1camera_1_1_pinhole_camera_parameters" prot="public">open3d::camera::PinholeCameraParameters</innerclass>
+    <innerclass refid="classopen3d_1_1camera_1_1_pinhole_camera_trajectory" prot="public">open3d::camera::PinholeCameraTrajectory</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>PinholeCameraIntrinsicParameters</name>
+        <enumvalue id="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a1b4af7cb8d6df3561d7447f42f7fdfc0" prot="public">
+          <name>PrimeSenseDefault</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a4d2e2a8ef843aaf15e15f208e3614339" prot="public">
+          <name>Kinect2DepthCameraDefault</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceopen3d_1_1camera_1a57dc47ff7ac14e5f8be58be554497793a8937a4c2862b60361e40878aa06eced3" prot="public">
+          <name>Kinect2ColorCameraDefault</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" line="37" column="1" bodyfile="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.h" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Open3D/Open3D/src/Open3D/Camera/PinholeCameraIntrinsic.cpp" line="35" column="1"/>
+  </compounddef>
+</doxygen>
